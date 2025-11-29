@@ -13,4 +13,4 @@ readme = "README.md"
 requires-python = ">=3.8"
 
 [project.scripts]
-basmgr = "bash_alias_sudo_manager:main"
+basmgr = "sh_alias_sudo_manager:main"

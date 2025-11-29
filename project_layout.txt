@@ -1,5 +1,5 @@
 bash-alias-sudo-manager/
-├── bash_alias_sudo_manager/
+├── sh_alias_sudo_manager/
 │ ├── __init__.py
 │ └── cli.py
 ├── tests/

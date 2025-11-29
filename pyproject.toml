@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bash-alias-sudo-manager"
+version = "0.1.0"
+authors = [
+    { name = "Marcelo" }
+]
+description = "CLI tool to manage bash aliases, exports, and sudoers safely"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+basmgr = "bash_alias_sudo_manager:main"

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-bash_alias_sudo_manager.cli
+sh_alias_sudo_manager.cli
 Safe manager for shell aliases, exports, and sudoers entries.
 
 Environment overrides (useful for tests):

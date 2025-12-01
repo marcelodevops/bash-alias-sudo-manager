@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 import subprocess
 
-MODULE = "bash_alias_sudo_manager.cli"
+MODULE = "sh_alias_sudo_manager.cli"
 
 def run(args, env=None):
     cmd = [sys.executable, "-m", MODULE] + args

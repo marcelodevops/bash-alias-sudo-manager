@@ -1,7 +1,7 @@
 .PHONY: test lint release
 
 PY=python3
-MOCK_ENV=BASM_RC_FILE=/tmp/sh_alias_sudo_manager_test_rc BASM_SUDOERS_PATH=/tmp/sh_alias_sudo_manager_test_sudoers
+MOCK_ENV=BASM_RC_FILE=/tmp/bash_alias_sudo_manager_test_rc BASM_SUDOERS_PATH=/tmp/bash_alias_sudo_manager_test_sudoers
 
 test:
 	@echo "Running tests..."
@@ -16,3 +16,4 @@ release:
 	${PY} -m build
 	@echo "Upload package with twine (ensure TWINE_USERNAME/TWINE_PASSWORD set)"
 	${PY} -m twine upload dist/*
+	@echo "Release complete."
